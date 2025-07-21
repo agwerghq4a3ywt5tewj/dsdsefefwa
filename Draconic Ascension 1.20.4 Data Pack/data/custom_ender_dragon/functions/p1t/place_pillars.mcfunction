@@ -1,0 +1,4 @@
+execute as @a[nbt={Dimension:"minecraft:the_end"}] at @s run playsound minecraft:block.beacon.power_select hostile @s ~ ~ ~ 1 2
+execute in the_end run setblock -47 0 -45 minecraft:structure_block[mode=save]{author:"",ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"custom_ender_dragon:pillars_p1",posX:0,posY:0,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:96,sizeY:108,sizeZ:91}
+execute in the_end run setblock -47 1 -45 minecraft:redstone_block
+execute in the_end run fill -47 0 -45 -47 1 -45 air

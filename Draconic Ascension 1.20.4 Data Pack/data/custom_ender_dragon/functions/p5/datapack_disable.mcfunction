@@ -1,0 +1,1 @@
+#datapack disable "file/Custom_Ender_Dragon_1.1.zip"

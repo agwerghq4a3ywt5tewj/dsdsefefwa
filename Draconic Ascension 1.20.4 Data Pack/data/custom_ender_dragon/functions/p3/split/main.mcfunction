@@ -1,0 +1,2 @@
+execute at @e[type=ender_dragon] run summon minecraft:armor_stand ~ ~-4 ~ {OnGround:0b,Tags:["split_1"],Invisible:1,ArmorItems:[{},{},{},{id:amethyst_block,Count:1b}],Small:1b}
+execute as @a[nbt={Dimension:"minecraft:the_end"}] at @s run playsound minecraft:entity.ender_dragon.shoot hostile @s ~ ~ ~

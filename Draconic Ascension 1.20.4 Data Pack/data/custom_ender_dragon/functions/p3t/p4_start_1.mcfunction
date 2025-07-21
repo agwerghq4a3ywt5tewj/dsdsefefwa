@@ -1,0 +1,2 @@
+execute in minecraft:the_end positioned 0 100 0 positioned over motion_blocking run summon minecraft:marker ~ ~ ~ {Tags:["summon_portal"]}
+execute as @a[nbt={Dimension:"minecraft:the_end"}] at @s run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 2 1
