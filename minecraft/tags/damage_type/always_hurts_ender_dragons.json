@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:is_explosion",
+    "#minecraft:is_projectile",
+    "minecraft:magic",
+    "minecraft:sonic_boom",
+    "minecraft:mob_projectile",
+    "minecraft:mob_attack"
+  ]
+}
