@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "inventory.*": {
+        "items": "minecraft:elytra",
+        "predicates": {
+          "minecraft:custom_data": "{mcs_dragon.update:1b}"
+        }
+      }
+    }
+  }
+}

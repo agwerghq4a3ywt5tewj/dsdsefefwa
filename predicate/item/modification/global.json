@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "hotbar.*": {
+            "items": "#mcs_dragon:modification",
+            "predicates": {
+              "minecraft:custom_data": "{mcs_dragon.item:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "inventory.*": {
+            "items": "#mcs_dragon:modification",
+            "predicates": {
+              "minecraft:custom_data": "{mcs_dragon.item:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "items": "#mcs_dragon:modification",
+            "predicates": {
+              "minecraft:custom_data": "{mcs_dragon.item:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.offhand": {
+            "items": "#mcs_dragon:modification",
+            "predicates": {
+              "minecraft:custom_data": "{mcs_dragon.item:1b}"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

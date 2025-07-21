@@ -1,0 +1,11 @@
+{
+	"values": [
+		"#mcs_dragon:ignore",
+		"minecraft:silverfish",
+		"minecraft:endermite",
+		"minecraft:phantom",
+		"minecraft:shulker",
+		"minecraft:ender_dragon",
+		"minecraft:enderman"
+	]
+}

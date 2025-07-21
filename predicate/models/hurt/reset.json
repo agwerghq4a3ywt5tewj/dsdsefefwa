@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "mcs_dragon.hurt": 1
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {
+          "nbt": "{HurtTime:0s}"
+        }
+      }
+    }
+  ]
+}

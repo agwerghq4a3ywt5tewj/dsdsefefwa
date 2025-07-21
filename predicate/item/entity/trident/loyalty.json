@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:trident",
+    "nbt": "{DealtDamage:0b}",
+    "location": {
+      "position": {
+        "y": {
+          "max": -1
+        }
+      },
+      "dimension": "minecraft:the_end"
+    },
+    "slots": {
+      "contents": {
+        "items": "minecraft:trident",
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft:loyalty"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

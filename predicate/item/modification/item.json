@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "contents": {
+          "items": "#mcs_dragon:modification",
+          "predicates": {
+            "minecraft:custom_data": "{mcs_dragon.item:1b}"
+          }
+        }
+      }
+    }
+}    

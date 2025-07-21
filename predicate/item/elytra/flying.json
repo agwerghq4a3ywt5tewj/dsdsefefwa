@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "minecraft:player",
+          "gamemode": [
+            "survival",
+            "adventure"
+          ]
+        },
+        "slots": {
+          "armor.chest": {
+            "items": "minecraft:elytra"
+          }
+        },
+        "flags": {
+          "is_flying": true
+        }
+      }
+    }
+  ]
+} 

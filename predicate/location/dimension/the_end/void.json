@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "y": {
+            "min": -256,
+            "max": 0
+          }
+        },
+        "dimension": "minecraft:the_end"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:ender_dragon",
+      "minecraft:drowned",
+      "minecraft:phantom",
+      "minecraft:guardian",
+      "minecraft:cat",
+      "minecraft:trident",
+      "minecraft:shulker_bullet",
+      "minecraft:enderman",
+      "minecraft:end_crystal",
+      "minecraft:shulker",
+      "minecraft:marker"
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:fireball",
+		"minecraft:drowned",
+		"minecraft:guardian",
+		"minecraft:end_crystal",
+		"minecraft:shulker",
+		"minecraft:marker",
+		"minecraft:item_display",
+		"minecraft:interaction"
+	]
+}
