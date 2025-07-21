@@ -1,0 +1,425 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Cat Armor",
+                "minecraft:custom_data": "{mcs_cat_armor:1b,mcs_dragon.item:1b}",
+                "minecraft:item_model": "mcs_dragon:item/cat_armor/item",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 64,
+                "minecraft:damage": 0,
+                "!minecraft:consumable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "mcs_dragon.health",
+                "scale": 0.0153846153846154
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16383998
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 16383998
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 10329495
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 10329495
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 4673362
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 4673362
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 1908001
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 1908001
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 8606770
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 8606770
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 11546150
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 11546150
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16351261
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 16351261
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 16701501
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 16701501
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 8439583
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 8439583
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 6192150
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 6192150
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 1481884
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 1481884
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3847130
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 3847130
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 3949738
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 3949738
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 8991416
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 8991416
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 13061821
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 13061821
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": 15961002
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "passenger": {
+                      "slots": {
+                        "contents": {
+                          "items": "minecraft:jigsaw",
+                          "components": {
+                            "minecraft:dyed_color": 15961002
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

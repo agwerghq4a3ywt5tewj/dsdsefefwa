@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "mcs_dragon.item_count",
+        "scale": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "End Guardian Spawn Egg",
+                "minecraft:custom_data": "{mcs_dragon.end_guardian.spawn_egg:1b,mcs_dragon.spawn_egg:1b,mcs_dragon.item:1b}",
+                "minecraft:item_model": "mcs_dragon:item/spawn_eggs/end_guardian",
+                "minecraft:entity_data": {
+                  "id": "minecraft:area_effect_cloud",
+                  "data": "{mcs_dragon:spawn_egg,entity:end_guardian}",
+                  "Duration": 1,
+                  "Radius": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:enchant_with_levels",
+    "levels": {
+      "min": 20,
+      "max": 39
+    }
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:vanishing_curse": 1
+    },
+    "add": true
+  }
+]

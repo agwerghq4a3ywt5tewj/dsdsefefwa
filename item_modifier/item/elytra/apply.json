@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Durability: ",
+        "color": "white",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "mcs_dragon.display_elytra"
+            },
+            "color": "white",
+            "italic": false,
+            "extra": [
+              {
+                "text": " / 432",
+                "color": "white",
+                "italic": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "mcs_dragon:nbt"
+    },
+    "ops": [
+      {
+        "source": "durability",
+        "target": "mcs_dragon_durability",
+        "op": "replace"
+      }
+    ]
+  }
+]

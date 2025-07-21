@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "mcs_dragon.item_count",
+        "scale": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Cat Armor",
+                "minecraft:custom_data": "{mcs_cat_armor:1b,mcs_dragon.item:1b}",
+                "minecraft:item_model": "mcs_dragon:item/cat_armor/item",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 64,
+                "minecraft:damage": 0,
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
